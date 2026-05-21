@@ -1,0 +1,156 @@
+Build a COMPLETE full-stack Human Second Brain web application.
+
+PROJECT NAME:
+Human Second Brain
+
+VISION:
+An AI-powered personal memory and thinking system that helps users capture, organize, retrieve, and chat with their memories, notes, ideas, files, and thoughts.
+
+The app should feel like a personal AI memory assistant.
+
+PRIMARY GOAL:
+Users can store information and later ask questions conversationally like:
+
+- “What did I learn about machine learning?”
+- “Summarize my thoughts from last week.”
+- “What business ideas did I save?”
+- “Show my important memories.”
+
+TECH STACK (IMPORTANT):
+Frontend:
+- React
+- Tailwind CSS
+- Responsive modern UI
+
+Backend:
+- FastAPI (Python)
+
+Database:
+- SQLite
+
+Vector Database:
+- ChromaDB
+
+Authentication:
+- JWT login/signup
+
+AI:
+- Gemini API
+
+FILE STORAGE:
+- Local storage for uploaded files
+
+CORE FEATURES (MVP ONLY):
+
+1. Authentication
+- Signup
+- Login
+- JWT authentication
+- Protected dashboard
+
+2. Dashboard
+- Clean modern UI
+- Sidebar navigation
+- Quick stats
+- Recent activity
+- Search bar
+
+3. Memory Management
+Users can:
+- Add memories manually
+- Save notes
+- Save thoughts
+- Add tags/categories
+- Edit/Delete memories
+
+Memory types:
+- Thought
+- Note
+- Learning
+- Idea
+- Journal
+- Task
+
+4. File Upload
+Allow upload of:
+- PDF
+- TXT
+- DOCX
+
+Extract text from uploaded files.
+
+5. AI Memory Search
+Semantic search using embeddings.
+
+Users can ask:
+“What did I write about startups?”
+
+The app should search stored memories intelligently.
+
+6. Chat With Memory (RAG)
+Chat interface that answers using the user's stored memories and uploaded documents.
+
+7. Categories & Tags
+Organize memories using:
+- Work
+- Personal
+- Learning
+- Ideas
+- Health
+- Business
+
+8. Recent Activity
+Show:
+- Recent uploads
+- Recent notes
+- Recent conversations
+
+UI REQUIREMENTS:
+- Beautiful modern design
+- Dark mode
+- Responsive
+- Professional SaaS-style UI
+- Dashboard layout
+- Sidebar + top navbar
+- Loading states
+- Error handling
+
+BACKEND REQUIREMENTS:
+Create:
+- Proper API routes
+- Authentication APIs
+- CRUD APIs for memories
+- Upload APIs
+- Chat APIs
+- Search APIs
+
+PROJECT STRUCTURE:
+Generate BOTH frontend and backend in ONE project.
+
+Create:
+- frontend/
+- backend/
+- requirements.txt
+- package.json
+- .env.example
+- README.md
+
+IMPORTANT EXECUTION RULES:
+1. Generate ALL files completely.
+2. Install dependencies automatically.
+3. Run frontend and backend.
+4. Fix ALL build errors automatically.
+5. Fix import errors automatically.
+6. Fix dependency issues automatically.
+7. Retry until application runs successfully.
+8. Do NOT stop at planning or architecture.
+9. Do NOT ask me coding questions.
+
+FINAL OUTPUT ONLY:
+Return:
+1. Exact run commands
+2. localhost URLs
+3. Required API keys
+4. Remaining manual steps (if any)
+
+Goal: deliver a working MVP by the end.
